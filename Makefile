@@ -7,6 +7,8 @@ include config.mk
 SRC = st.c x.c
 OBJ = $(SRC:.c=.o)
 
+CC = gcc -std=c99
+
 all: options st
 
 options:
